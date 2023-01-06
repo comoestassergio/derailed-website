@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Neutral Face';
+        src: local(''), url('/public/fonts/NeutralFace.otf') format('otf');
+    }
+
+    @font-face {
+        font-family: 'Neutral Face Bold';
+        src: local(''), url('/fonts/NeutralFace-Bold.otf');
+    }
+
+    @font-face {
+        font-family: 'Inter';
+        src: url('/public/fonts/Inter-Regular.ttf') format('ttf');
+    }
+}
+
+

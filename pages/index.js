@@ -1,10 +1,11 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
+import HeroMobile from "../components/HeroMobile"
+import Categories from "../components/Categories"
 
 export default function Home() {
   return (
-    <div>
-
-    </div>
+    <>
+      <HeroMobile />
+      <Categories />
+    </>
   )
 }
